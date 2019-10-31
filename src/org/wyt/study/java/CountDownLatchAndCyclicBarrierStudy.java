@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * CountDownLatch是减计数方式，而CyclicBarrier是加计数方式。
  * CountDownLatch计数为0无法重置，无法复用；CyclicBarrier计数达到初始值，则可以用reset()重置，可以复用。
  */
-public class CountDownLatchAndCyclicBarrier {
+public class CountDownLatchAndCyclicBarrierStudy {
 
     public static void main(String[] args) throws InterruptedException {
         countDownLatchStudy();
